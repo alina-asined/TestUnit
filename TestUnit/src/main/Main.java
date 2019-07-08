@@ -5,17 +5,19 @@
  */
 package main;
 
+import controlled.Behavior;
+import view.Gui1;
+
 /**
  *
  * @author Guga
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        Gui1 g = new Gui1();
+                
     }
     
 }
