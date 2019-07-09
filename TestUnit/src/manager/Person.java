@@ -14,13 +14,15 @@ public class Person {
     private String name;
     private int age;
     private int id;
-    /**
-     * @return the name
-     */
+
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
     public String getName() {
         return name;
     }
-
+   
     /**
      * @param name the name to set
      */
@@ -54,5 +56,25 @@ public class Person {
      */
     public void setId(int id) {
         this.id = id;
+    }
+    
+    public boolean travel(String name){
+        if(name.equals("alina")){
+            System.out.print(this.name + " is travelling" );
+            return true;
+            
+        }else{System.out.print(this.name + " isn't travelling");
+            return false;}
+    
+    }
+    
+    public  boolean holiday(){
+        if(this.equals("alina")){
+            
+            System.out.print( this.name + "favorite location is the sea  ");
+            return true;
+            
+        }else{System.out.print(this.name + "doesn't like the sea");
+            return false;}
     }
 }
