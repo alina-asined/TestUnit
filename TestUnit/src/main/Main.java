@@ -6,6 +6,7 @@
 package main;
 
 import controlled.Behavior;
+import manager.PersonTest;
 import view.Gui1;
 
 /**
@@ -16,7 +17,8 @@ public class Main {
 
    
     public static void main(String[] args) {
-        Gui1 g = new Gui1();
+       // Gui1 g = new Gui1();
+        new  PersonTest();
                 
     }
     
