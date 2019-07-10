@@ -18,9 +18,9 @@ public class PersonTest {
         public void test(){
         
             Person person = new Person("alina",15); 
-            Person person1 = Mockito.spy(person);
+           Person person1 = Mockito.spy(person);
             Mockito.doReturn(true).when(person1).travel("alina");
-            Assert.assertEquals(true, person1.holiday());
+            Assert.assertEquals(true, person.holiday());
             
         }
 }

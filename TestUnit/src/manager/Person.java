@@ -60,7 +60,7 @@ public class Person {
     
     public boolean travel(String name){
         if(name.equals("alina")){
-            System.out.print(this.name + " is travelling" );
+            System.out.print(this.name + " is travelling! " );
             return true;
             
         }else{System.out.print(this.name + " isn't travelling");
@@ -69,9 +69,9 @@ public class Person {
     }
     
     public  boolean holiday(){
-        if(this.equals("alina")){
+        if(this.travel("alina")){
             
-            System.out.print( this.name + "favorite location is the sea  ");
+            System.out.print( this.name + " favorite location is the sea.");
             return true;
             
         }else{System.out.print(this.name + "doesn't like the sea");
